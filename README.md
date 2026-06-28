@@ -43,6 +43,15 @@ Welcome to the **Agentic AI Study**. This repository is a learning space dedicat
   * Managing multi-turn conversation lists.
   * Extracting usage metadata (e.g., input/output token counts).
 
+### [5. Structured Output](file:///d:/TEJAA/Agentic%20AI/langchain/5-structured_output.ipynb)
+* **Objective:** Direct LLMs and Agents to return structured data instead of unstructured text.
+* **Topics Covered:**
+  * Using Pydantic models with `.with_structured_output()`.
+  * Returning raw messages alongside parsed objects (`include_raw=True`).
+  * Creating nested data schemas for complex outputs.
+  * Leveraging `TypedDict` and Python `dataclasses` for structure.
+  * Forcing structured outputs in LangChain Agents using `response_format`.
+
 ---
 
 ## 🛠️ Setup & Installation
